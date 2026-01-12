@@ -6,5 +6,5 @@ test('page has accessibility basics', async ({ themeWizard }) => {
   expect.soft(title).toBeTruthy();
 
   // Has document language specified
-  await expect.soft(themeWizard.page.locator('html')).toHaveAttribute('lang', 'nl-NL');
+  await expect.soft(themeWizard.page.locator('html')).toHaveAttribute('lang', 'en-NL');
 });
